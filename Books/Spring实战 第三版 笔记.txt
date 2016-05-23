@@ -1,0 +1,15 @@
+Spring实战 第三版
+
+P27
+什么是mock实现？参考 http://liuzhijun.iteye.com/blog/1512780
+verify...times(1)的作用，是验证mock对象是否调用了embark方法，并不关心方法的返回值
+
+P32
+面向切面编程（AOP）最好的地方，在于切入点可以完全不知道切面的存在。在例子中，也即BraveKnight不用显式调用Minstrel，而是靠XML文件配置即可
+切面装配到切入点的过程，叫做编织（weaving）
+
+P36
+Spring容器有两种类型，Bean工厂接口 和 应用上下文接口。前者太低级了，主要讨论后者
+
+P38
+这些接口真的实现了吗？不知道……
