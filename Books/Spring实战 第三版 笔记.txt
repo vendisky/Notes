@@ -67,3 +67,37 @@ P97
 
 P100
 Spring基于Java的配置，略过
+
+P105
+分布于应用多处的功能，被称为横切关注点（cross-cutting concerns）
+面向切面编程（AOP）所作的，就是横切关注点与业务逻辑相分离
+依赖注入有助于应用兑现之间的解耦，AOP可以实现横切关注点和它们所影响的对象之间的解耦
+
+P106
+AOP的术语
+通知（Advice），切面的工作（what和when）
+连接点（Joinpoint），应用执行过程中，能够插入切面的一个点
+切点（Poincut），通知织入（Weaving）的一个或多个连接点（when）
+切面（Aspect），通知和切点的结合
+引入（Introduction），向现有的类添加新方法或属性
+
+P109
+四种AOP支持，其中：
+第一种不介绍了，语句繁琐用的少
+第二种就是P122
+第三种就是P113
+第四种就是P127
+
+P110
+Spring只支持方法连接点
+
+P120
+AOP不仅可以为对象拥有的方法添加新功能，也可以为对象增加新的方法
+
+P126
+@DeclareParents是一个@AspectJ注解，@AspectJ是一个不同于Spring的项目
+（其实@AspectJ是Spring AOP的变体）
+
+P109
+Spring的依赖注入，在这个例子中，协作了AspectJ的切面注入
+写法是很不同的，请注意
