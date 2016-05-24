@@ -37,3 +37,33 @@ P76
 在XML配置文件中，用>=或<=可能会报错，因为这两个符号在XML中有特殊含义
 可以用文本替代方式（textual alternatives），改用ge或le
 
+P86
+byType自动装配存在一个局限性，也即如果多个Bean的类型和需要自动装配的属性的类型相匹配，就会抛出异常
+
+P87
+constructor自动装配和byType一样，做的是类型匹配，只不过前者是构造器，后者是属性
+
+P89
+混合装配可以用于属性，但是不能用于构造器
+
+P91
+@Autowired依靠的是类型匹配
+假如没有匹配的Bean，或多个匹配的Bean，都会抛出异常
+解决方法？
+required
+@Qualifier可以筛选
+
+P94
+@Autowired可以减少Spring XML配置，但是会引入对Spring的特定依赖
+标准的Java注解@Inject可以替代@Autowired
+
+P97
+@Value的真正魔力，是SpEL表达式
+
+P97
+自动装配消除了Spring XML中的<property>和<constructor-arg>元素
+自动检测可以进一步消除<bean>元素
+方法是扫描注解，当然还可以过滤
+
+P100
+Spring基于Java的配置，略过
