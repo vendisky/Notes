@@ -45,3 +45,9 @@ http://askubuntu.com/questions/74114/how-to-make-terminal-semi-transparent
 vi .bashrc或者gedit .bashrc
 
 最后一行添加sudo su
+
+<br/>
+
+### 安装sublime
+
+http://askubuntu.com/questions/172698/how-do-i-install-sublime-text-2-3
