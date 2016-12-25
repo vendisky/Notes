@@ -51,3 +51,13 @@ vi .bashrc或者gedit .bashrc
 ### 安装sublime
 
 http://askubuntu.com/questions/172698/how-do-i-install-sublime-text-2-3
+
+<br/>
+
+### 递归查找文件
+
+find . -iname fileName
+
+.为当前目录
+
+-name为按照文件名查找 ，-iname为根据文件名查找，但是不区分大小写
