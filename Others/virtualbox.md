@@ -21,3 +21,11 @@ http://askubuntu.com/questions/87061/can-i-make-tab-auto-completion-case-insensi
 ### 切换英文输入法
 
 删除所有中/日文输入法即可
+
+<br/>
+
+### Ubuntu下安装
+
+https://www.virtualbox.org/wiki/Linux_Downloads
+
+如出现modprobe vboxdrv failed，重启并在BIOS中disable掉Secure Boot（当时还加了Enable legacy ROM？不知道有用不，但启动方式必须还是UEFI）
