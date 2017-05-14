@@ -59,3 +59,7 @@ http://blog.csdn.net/zhy421202048/article/details/53490247
 ### Install node-sass 4.5.0 failed
 
 https://github.com/sass/node-sass/issues/1888
+
+### -v1标签废除了，ionic CLI有很多变化
+
+以后要参考这里的命令：https://github.com/driftyco/ionic-cli
