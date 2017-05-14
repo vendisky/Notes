@@ -43,3 +43,19 @@ ionic 1.x要严格按照1.x的文档来，比如，一些2的图标，1.x就没�
 * ionic resources，用来生成icon和splash
 
 localhost:8100/ionic-labs，用来预览iOS和Android双重效果
+
+<br/>
+
+# 3.0.0版本安装的一些问题
+
+### ionic version
+
+退出稍微有点慢，但是无所谓
+
+### npm淘宝镜像
+
+http://blog.csdn.net/zhy421202048/article/details/53490247
+
+### Install node-sass 4.5.0 failed
+
+https://github.com/sass/node-sass/issues/1888
