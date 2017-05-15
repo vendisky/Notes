@@ -40,9 +40,9 @@
 
 ionic 1.x要严格按照1.x的文档来，比如，一些2的图标，1.x就没有
 
-* ionic resources，用来生成icon和splash
+ionic resources，用来生成icon和splash
 
-localhost:8100/ionic-labs，用来预览iOS和Android双重效果
+ionic serve --lab，打开localhost:8100/ionic-labs，用来预览iOS和Android双重效果
 
 <br/>
 
