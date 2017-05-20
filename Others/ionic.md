@@ -40,7 +40,7 @@
 
 ionic 1.x要严格按照1.x的文档来，比如，一些2的图标，1.x就没有
 
-ionic resources，用来生成icon和splash
+ionic resources，用来生成icon和splash（假如超时，那就重跑一次）
 
 ionic serve --lab，打开localhost:8100/ionic-labs，用来预览iOS和Android双重效果
 
@@ -63,3 +63,12 @@ https://github.com/sass/node-sass/issues/1888
 ### -v1标签废除了，ionic CLI有很多变化
 
 以后要参考这里的命令：https://github.com/driftyco/ionic-cli
+
+<br/>
+
+# Troubleshooting
+
+> Error occurred during initialization of VM
+> Could not reserve enough space for 2097152KB object heap
+
+https://forum.ionicframework.com/t/build-failed-unable-start-the-daemon-process/72171
