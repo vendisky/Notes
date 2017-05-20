@@ -72,3 +72,13 @@ https://github.com/sass/node-sass/issues/1888
 > Could not reserve enough space for 2097152KB object heap
 
 https://forum.ionicframework.com/t/build-failed-unable-start-the-daemon-process/72171
+
+> You have not accepted the license agreements of the following SDK components: [Android SDK Platform 25]
+
+http://stackoverflow.com/questions/40392345/ionic-build-error-you-have-not-accepted-the-license-agreement
+
+更新SDK到最新版本即可（可能要更新多次）
+
+首先试着用SDK Manager更新，国内的镜像全部挂了……回过头来直接用VPN，反而没问题（这也是思维定式，以为一定要镜像）
+
+然后VPN刷不出platform 25……研究一下，发现是版本太旧了，需要更新两次（中间关掉SDK Manager重启），才能升到最新版本
