@@ -32,6 +32,10 @@
 
 * 允许访问在app中转到其他页面，增加allow-navigation
 
+## www/js + index.html + manifest.xml | config.xml, ionic.config.json, package.json
+
+* 初始模板改名，www文件夹中，改starter即可，后面三个还要改myApp
+
 增加新的plugin（如ng-cordova，有访问剪贴板等一系列功能，详见[here](https://www.thepolyglotdeveloper.com/2015/01/access-native-device-clipboard-ionic-framework/)）
 
 <br/>
