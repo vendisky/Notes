@@ -48,6 +48,8 @@ ionic resources，用来生成icon和splash（假如超时，那就重跑一次�
 
 ionic serve --lab，打开localhost:8100/ionic-labs，用来预览iOS和Android双重效果
 
+如果访问0.0.0.0，加上--address localhost
+
 <br/>
 
 # 3.0.0版本安装的一些问题
