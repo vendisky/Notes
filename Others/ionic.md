@@ -88,3 +88,10 @@ http://stackoverflow.com/questions/40392345/ionic-build-error-you-have-not-accep
 首先试着用SDK Manager更新，国内的镜像全部挂了……回过头来直接用VPN，反而没问题（这也是思维定式，以为一定要镜像）
 
 然后VPN刷不出platform 25……研究一下，发现是版本太旧了，需要更新两次（中间关掉SDK Manager重启），才能升到最新版本
+
+# ionic serve如何和VPNSO共存
+
+启动的时候，一定要在没有VPN的环境
+
+每次修改代码的时候（会调用livereload），断开VPN，并且不要勾选Force to global
+
